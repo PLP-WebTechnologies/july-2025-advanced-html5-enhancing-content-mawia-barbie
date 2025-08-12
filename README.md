@@ -13,8 +13,7 @@ You are expected to demonstrate the ability to:
 * Embed media content such as images, audio, or video using semantic HTML5 elements.
 * Build structured HTML5 forms that are both usable and visually intuitive.
 * Apply various HTML5 form attributes to improve user interaction.
-* Use built-in validation techniques to minimize incorrect data input without relying on JavaScript.
-
+* 
 ## Instructions
 
 Design a simple multi-section web page that showcases the use of lists, tables, and media, followed by a complete HTML5 form. The page should reflect thoughtful structure, usability, and clarity.
@@ -35,10 +34,5 @@ Submit a single HTML file named `enhanced-form.html`. It should include:
 
 ## Tips
 
-* Proper and meaningful use of lists, tables, and media.
-* Clarity and accessibility of form structure.
-* Correct use of form elements and attributes.
-* Effective application of native HTML5 validation.
-* Clean, well-indented, and maintainable HTML code.
-
+* 
 

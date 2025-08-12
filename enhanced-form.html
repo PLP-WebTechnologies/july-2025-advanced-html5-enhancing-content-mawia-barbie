@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <title>MENU</title>
+    <meta charset="UTF-8">
+    <Meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <h1><strong>Welcome to Barbie Bistro</strong></h1>
+    <p>We are commited to offering a mind blowing cuilinary experience and Quality service for all our clients<br>Interact with our menu which is curated with you in mind.For feedback or if you want to join the Barbies exclusive cuilinary experience fill in the form at the end of this page.<br>ENJOY!!!!!</p>
+    <table border ="10">
+        <thead>Barbie's Menu</thead>
+        <tr>
+            <td>main</td>
+            <td>accompaniment</td>
+            <td>price</td>
+        </tr>
+         <tr>
+            <td>coconut chicken curry</td>
+            <td>Rice or fries or ugali</td>
+            <td>1200</td>
+        </tr>
+         <tr>
+            <td>Tandoori chicken wings</td>
+            <td>fries or potato wedges</td>
+            <td>890</td>
+        </tr>
+         <tr>
+            <td>grilled steak with mashroom sauce</td>
+            <td>fries or layonnaise potatoes</td>
+            <td>1000</td>
+        </tr>
+    </table>
+<h2>OFFERS</h2>
+<P>For every purchase you get a complimentary  slice of our famous cheesecake!!!!!</P>
+<img src="https://images.pexels.com/photos/29653160/pexels-photo-29653160.jpeg?_gl=1*133n40y*_ga*MTcyMTQ4NTg1Ny4xNzU0MTI1OTYx*_ga_8JE65Q40S6*czE3NTQ5ODM4NDQkbzMkZzEkdDE3NTQ5ODQ3NDgkajQ3JGwwJGgw" alt="desert" width="300">
+
+
+  <h1>Sign Up Form</h1>
+
+  <form action="/submit" method="post" autocomplete="on">
+
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Account Details</legend>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required minlength="4" maxlength="15">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required minlength="8">
+    </fieldset>
+
+    <fieldset>
+      <legend>Preferences</legend>
+
+      <label>
+        <input type="checkbox" name="newsletter" value="yes">
+        Subscribe to newsletter
+      </label>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select your county</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Meru">Meru</option>
+        <option value="Kisumu">Kisumu</option>
+      </select>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+
+</body> 
